@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm dev)",
+      "Bash(command -v:*)",
+      "Bash(cmd /c \"node --version && npm --version\")",
+      "Bash(cmd /c \"node --version\")",
+      "Bash(cmd //c \"cd C:\\\\Users\\\\dty23\\\\Desktop\\\\Project\\\\Other\\\\ai_idp_demo && node --version\")",
+      "Bash(cmd //c \"cd C:\\\\Users\\\\dty23\\\\Desktop\\\\Project\\\\Other\\\\ai_idp_demo && pnpm --version\")",
+      "Bash(cmd //c \"npm --version && npx pnpm --version\")",
+      "Bash(cmd //c \"cd C:\\\\Users\\\\dty23\\\\Desktop\\\\Project\\\\Other\\\\ai_idp_demo && dir node_modules /b 2>nul | head -5\")",
+      "Bash(cmd //c \"if exist C:\\\\Users\\\\dty23\\\\Desktop\\\\Project\\\\Other\\\\ai_idp_demo\\\\node_modules \\(echo EXISTS\\) else \\(echo NOT EXISTS\\)\")",
+      "Bash(cmd //c \"npm install -g pnpm@10.4.1\")",
+      "Bash(cmd //c \"pnpm --version\")",
+      "Bash(cmd //c \"cd C:\\\\Users\\\\dty23\\\\Desktop\\\\Project\\\\Other\\\\ai_idp_demo && pnpm install\")",
+      "Bash(cmd //c \"cd C:\\\\Users\\\\dty23\\\\Desktop\\\\Project\\\\Other\\\\ai_idp_demo && pnpm approve-builds\")",
+      "Bash(cmd //c \"cd C:\\\\Users\\\\dty23\\\\Desktop\\\\Project\\\\Other\\\\ai_idp_demo && pnpm rebuild esbuild @tailwindcss/oxide\")",
+      "Bash(cmd //c \"curl -s -o /dev/null -w \"\"%{http_code}\"\" http://localhost:3000/ 2>&1 || echo not_running\")",
+      "Bash(cmd //c \"curl -s http://localhost:3000/api/trpc/auth.me?input={} 2>&1\")",
+      "Bash(cmd //c \"cd C:\\\\Users\\\\dty23\\\\Desktop\\\\Project\\\\Other\\\\ai_idp_demo && set NODE_ENV=development && node_modules\\\\.bin\\\\tsx server/_core/index.ts 2>&1\")"
+    ]
+  }
+}
