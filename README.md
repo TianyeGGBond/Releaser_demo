@@ -2,6 +2,8 @@
 
 An Internal Developer Platform (IDP) demo built with React, Express, tRPC, and an AI assistant for DevOps troubleshooting. Runs fully in mock-data mode with no external dependencies required.
 
+![Dashboard](docs/dashboard.png)
+
 ---
 
 ## Features
@@ -26,6 +28,25 @@ An Internal Developer Platform (IDP) demo built with React, Express, tRPC, and a
 - **MySQL via Drizzle ORM** — Full schema with migrations; gracefully falls back to in-memory mock data when no DB is configured
 - **OAuth session management** — JWT-signed cookies; bypassed in no-auth mode
 - **LLM integration** — OpenAI-compatible chat endpoint (configurable via env vars)
+
+---
+
+## Screenshots
+
+### Service Catalog
+Browse all registered microservices with health status, tech stack, team ownership, and tier classification.
+
+![Service Catalog](docs/1-service.png)
+
+### Deployment Monitor
+Track real-time and historical deployments across production, staging, and development environments.
+
+![Deployment Monitor](docs/2-deployment.png)
+
+### AI Assistant
+Chat with an AI DevOps assistant — paste logs, describe errors, and get step-by-step fix instructions.
+
+![AI Assistant](docs/3-ai-assistant.png)
 
 ---
 
@@ -70,6 +91,7 @@ An Internal Developer Platform (IDP) demo built with React, Express, tRPC, and a
 ├── drizzle/                 # DB schema & migrations
 │   └── schema.ts
 │
+├── docs/                    # Screenshots
 ├── package.json
 ├── vite.config.ts
 └── drizzle.config.ts
